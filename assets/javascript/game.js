@@ -13,10 +13,10 @@ var resetAndStart = function () {
     $(".crystals").empty();
 
     var images =   
-        ['https://i.pinimg.com/originals/7a/1e/8c/7a1e8cbae81363b96096b4c5d0971705.png', 
-        'https://www.pngarts.com/files/1/Quartz-Crystal-Transparent-Background-PNG.png', 
-        'https://i.pinimg.com/originals/0e/e4/d1/0ee4d155315e22bb8148f9092c422c43.png', 
-        'https://www.pngarts.com/files/1/Quartz-Crystal-PNG-Photo.png'];
+        ['assets/images/crystalone.png', 
+        'assets/images/crystaltwo.png', 
+        'assets/images/crystalthree.png', 
+        'assets/images/crystalfour.png'];
 
     random_result = Math.floor(Math.random() * 69) + 30;
 
